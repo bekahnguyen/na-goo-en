@@ -1,12 +1,18 @@
+import { Link } from "react-router-dom";
 export default function Portfolio() {
+  // have icon of phone so when click it is the contact. link to website and maybe reviews to trip advisor.
   return (
     <>
       <div id="flexbox">
         <img id="gretto" src="allegretto.JPG"></img>
         <div id="event-planner">
-          <h3 id="paso-manager"> Catering Sales Manager </h3>
-          <h4>Allegretto Vineyard Resort</h4>
-          <i>Responsibilites include:</i>
+          <section id="paso-robles-planner">
+            <h3 id="paso-manager"> Catering Sales Manager </h3>
+            <span> at Allegretto Vineyard Resort</span>
+          </section>
+          <p id="paso-manager">
+            <i>Responsibilites include:</i>
+          </p>
           <ul>
             <li>
               Planning, organizing, and managing all details for Corporate,

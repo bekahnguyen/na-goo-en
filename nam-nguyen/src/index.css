@@ -81,9 +81,23 @@ button:focus-visible {
 
 #gretto,
 #myNam {
-  max-width: 40%;
+  max-width: 50vh;
 }
 
 #flexbox {
   display: flex;
+  flex-wrap: wrap;
+}
+
+#paso-manager {
+  text-align: left;
+  margin-left: 4%;
+}
+
+#paso-robles-planner {
+  display: inline;
+}
+
+ul li {
+  list-style-type: none;
 }
