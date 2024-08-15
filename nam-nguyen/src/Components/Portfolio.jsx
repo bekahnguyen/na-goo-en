@@ -2,12 +2,10 @@ export default function Portfolio() {
   return (
     <>
       <div id="flexbox">
-        <div>
-          <img id="gretto" src="allegretto.JPG"></img>
-        </div>
-        <div>
-          <h3> Catering Sales Manager </h3>
-          <h6>Allegretto Vineyard Resort</h6>
+        <img id="gretto" src="allegretto.JPG"></img>
+        <div id="event-planner">
+          <h3 id="paso-manager"> Catering Sales Manager </h3>
+          <h4>Allegretto Vineyard Resort</h4>
           <i>Responsibilites include:</i>
           <ul>
             <li>

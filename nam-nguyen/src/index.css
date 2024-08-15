@@ -66,3 +66,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#loveWord {
+  color: #3992ff;
+}
+
+#gretto,
+#myNam {
+  max-width: 40%;
+}
+
+#flexbox {
+  display: flex;
+}
